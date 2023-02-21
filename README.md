@@ -60,13 +60,18 @@ The following tasks and questions will drive the visualization and interaction d
 
 ## Sketches
 
+These sketches illustrate my ideas for visualizing this data set. The first sketch shows how the different years will show the differences in tree level.
+
 <img src='Trees.gif'  width="30%" height="30%">
+
+This second sketch shows a basic idea for interaction, where the user could use their cursor to highlight a particular country and then see details about the deforestation data.
+
 <img src='Trees (1).gif'  width="30%" height="30%">
 
 
 ## Open Questions
 
-(describe any fear, uncertainty, or doubt you’re having about the feasibility of implementing the sketched system. For example, “I’m not sure where to get the geographic shapes to build a map from this data” or “I don’t know how to resolve the codes to meaningful names” … Feel free to delete this section if you’re confident.)
+My primary open questions for this project are related to the interactivity and the global mapping of the data. As we continue to cover interactivity in class, I am hoping that those techniques will give me the tools needed to implement this project. In order to complete the global mapping, I have been looking at existing examples of data and will use these to inform my work.
 
 ## Milestones
 
