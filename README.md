@@ -53,10 +53,10 @@ Lastly, I have added axes labels to the scatter plot to increase clarity. The de
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
- * (insert your question or task here) How does the X vary over time?
- * (insert your question or task here) Is there any correlation between X and Y?
- * (insert your question or task here) Are there interesting spatial patterns in X?
- * (insert your question or task here) How many X are there across different Y?
+ * How does the rate of deforestation change over time?
+ * What areas of the world are experiencing the most deforestation?
+ * Are we losing denser forest at the same rate as more sparse forest?
+ * Are there any countries exhibiting anomolous behavior in their deforestation habits?
 
 ## Sketches
 
