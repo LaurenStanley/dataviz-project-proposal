@@ -75,4 +75,13 @@ My primary open questions for this project are related to the interactivity and 
 
 ## Milestones
 
-(for each week, estimate what would be accomplised)
+* 2/19 - Work on porting data from scatterplot to map
+* 2/26 - Finish implementing map for one year and threshold value
+* 3/5 - Controllable filtering by year
+* 3/12 SPRING BREAK
+* 3/19 - Controllable filtering by threshold
+* 3/26 - Implement sliders to manage all filtering
+* 4/2 - Implement mouseover detail view
+* 4/9 - Implement additional plot detail for mouseover country, i.e. line plot of tree cover
+* 4/16 - Buffer Week
+* 4/23 - Wrap up and Report Writing 
