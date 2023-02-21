@@ -68,6 +68,10 @@ This second sketch shows a basic idea for interaction, where the user could use 
 
 <img src='Trees (1).gif'  width="30%" height="30%">
 
+Lastly, this sketch shows the intended interactive sliders, which will allow the user to see the data filtered by year and by forest density threshold.
+
+<img src='Trees(2).gif'  width="30%" height="30%">
+
 
 ## Open Questions
 
