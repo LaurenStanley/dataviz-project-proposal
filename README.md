@@ -2,7 +2,7 @@
 
 ## Data
 
-The data I propose to visualize for my project is the global tree coverage data from the Global Forest Service. This dataset details the change in tree cover across the globe between 2000 and 2021 for different countries. It was taken from satellite data by Hansen et. al (2013) with changing data collection methodology after this year. For this dataset, questions I would be interested in investigating include: are there differences in deforestation in different areas of the globe? Can these differences be related to economic status? Can they be related to starting forest density? What areas show reforestation?
+The data visualized for my project is the global tree coverage data from the Global Forest Service. This dataset details the change in tree cover across the globe between 2000 and 2021 for different countries. It was taken from satellite data by Hansen et. al (2013) with changing data collection methodology after this year. For this dataset, questions I was be interested in investigating included: are there differences in deforestation in different areas of the globe? Can these differences be related to economic status? Can they be related to starting forest density? What areas show reforestation?
 
 Sources: https://www.globalforestwatch.org/dashboards/global/?category=forest-change
 
@@ -43,7 +43,7 @@ The next proof of concept was to use the real data set to create scatterplot of 
   <img src="Pseudo2.PNG" width="50%" />
 </a>
 
-Lastly, I have added axes labels to the scatter plot to increase clarity. The delta values, which are derived from the raw data, will be used in the final implementation.
+I added axes labels to the scatter plot to increase clarity. The delta values, which are derived from the raw data, were be used in the final implementation.
 
 <a href="https://vizhub.com/LaurenStanley/cc38ae77d9244fa0a46e1646886eff74">
   <img src="Pseudo3.PNG" width="50%" />
@@ -53,14 +53,13 @@ Lastly, I have added axes labels to the scatter plot to increase clarity. The de
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
- * How does the rate of deforestation change over time?
  * What areas of the world are experiencing the most deforestation?
  * Are we losing denser forest at the same rate as more sparse forest?
  * Are there any countries exhibiting anomolous behavior in their deforestation habits?
 
 ## Sketches
 
-These sketches illustrate my ideas for visualizing this data set. The first sketch shows how the different years will show the differences in tree level.
+These sketches illustrated my ideas for visualizing this data set. The first sketch shows how the different years will show the differences in tree level.
 
 <img src='Trees.gif'  width="30%" height="30%">
 
@@ -71,11 +70,6 @@ This second sketch shows a basic idea for interaction, where the user could use 
 Lastly, this sketch shows the intended interactive sliders, which will allow the user to see the data filtered by year and by forest density threshold.
 
 <img src='Trees(2).gif'  width="30%" height="30%">
-
-
-## Open Questions
-
-My primary open questions for this project are related to the interactivity and the global mapping of the data. As we continue to cover interactivity in class, I am hoping that those techniques will give me the tools needed to implement this project. In order to complete the global mapping, I have been looking at existing examples of data and will use these to inform my work.
 
 ## Milestones
 
@@ -89,3 +83,13 @@ My primary open questions for this project are related to the interactivity and 
 * 4/9 - Implement additional plot detail for mouseover country, i.e. line plot of tree cover
 * 4/16 - Buffer Week
 * 4/23 - Wrap up and Report Writing 
+
+## Results
+My final visualization can be found here: https://vizhub.com/LaurenStanley/a18ca5caa2024910b1db12654fb41ad8
+<img src='Final.png'>
+The features of this final implementation include a drop down menu where the starting forest density can be changed. Each country shows the percentage change in forest cover between 2000 and 2010. By highlighting a specific country with the mouse, a user can see a detailed view of how much the forest coverage has changed for that threshold level.
+
+For instance, at 30% threshold highlighting one country would show the forest coverage area in 2010 at 30% density or high - the forest coverage area in 2000 at 30% density of higher/ the total area of the country.
+
+
+
