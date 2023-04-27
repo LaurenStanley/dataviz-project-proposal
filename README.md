@@ -89,7 +89,10 @@ My final visualization can be found here: https://vizhub.com/LaurenStanley/a18ca
 <img src='Final.png'>
 The features of this final implementation include a drop down menu where the starting forest density can be changed. Each country shows the percentage change in forest cover between 2000 and 2010. By highlighting a specific country with the mouse, a user can see a detailed view of how much the forest coverage has changed for that threshold level.
 
-For instance, at 30% threshold highlighting one country would show the forest coverage area in 2010 at 30% density or high - the forest coverage area in 2000 at 30% density of higher/ the total area of the country.
+For instance, at 30% threshold highlighting one country would show the forest coverage area in 2010 at 30% density or high - the forest coverage area in 2000 at 30% density of higher/ the total area of the country. Shown below, we can see that Canada has a .33% increase in total forest coverage that is at least 30% dense.
 
+<img src='FinalMouse.png'>
 
+Lastly, as a proof of concept, the data is shown at threshold 0% - no change is registered anywhere on the planet because all landmass qualifies as forest at or above 0% denisty.
 
+<img src='Land.png'>
